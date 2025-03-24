@@ -1,0 +1,164 @@
+.body {
+    height: 100%;
+    width: 100%; 
+   
+
+}
+
+.calculate {
+    position: relative;
+    display: flex;
+    height: 400px;
+    width: 300px;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10%;
+   
+   
+}
+
+display {
+    position: relative;
+    display: flex;
+    border-radius: 20px solid black;
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.input {
+    width: 100%;
+    background-color: rgb(6, 51, 21);
+}
+
+.button-conteiner {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    
+   
+
+    .button-all-clean {
+        text-align: center;
+        width: 150px;
+        border: 1px solid white;
+        padding: 1px;
+        background-color: aqua;
+    }
+    .button-del {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-share {
+       text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+
+    .button-seven {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-eight {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-nine {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-multi {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-four {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-five {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-six {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-sum {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-one {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-two {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-three {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-minus {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-point {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white;
+        background-color: aqua;
+    }
+    .button-zero {
+        text-align: center;
+        width: 75px;
+        border: 1px solid white ;
+        background-color: aqua;
+    }
+    .button-equality {
+        text-align:center;
+        width: 150px;
+        border: 1px solid white;
+        padding: 1px;
+        background-color: aqua;
+        margin: 0;
+    }
+    .button-equality h1 {
+        height: 60px;
+    }
+}
+
+.display {
+    position: relative;
+    display: flex;
+}
