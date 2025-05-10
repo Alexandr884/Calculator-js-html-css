@@ -7,39 +7,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="calculate">
-       <div class="display"><input class="input" type="text" name="" id=""></div>
-       <div class="button-conteiner"> 
-        <div class="button-all-clean ";><h2>AC</h2></div>
-        <div class="button-del"><h2>DEL</h2></div>
-        <div class="button-share"><h2>÷</h2></div>
-       </div>
-       <div class="button-conteiner"> 
-        <div class="button-seven"><h2>7</h2></div>
-        <div class="button-eight"><h2>8</h2></div>
-        <div class="button-nine"><h2>9</h2></div>
-        <div class="button-multi"><h2>*</h2></div>
-       </div>
-       <div class="button-conteiner"> 
-        <div class="button-four"><h2>4</h2></div>
-        <div class="button-five"><h2>5</h2></div>
-        <div class="button-six"><h2>6</h2></div>
-        <div class="button-sum"><h2>+</h2></div>
-       </div>
-       <div class="button-conteiner"> 
-        <div class="button-one"><h2>1</h2></div>
-        <div class="button-two"><h2>2</h2></div>
-        <div class="button-three"><h2>3</h2></div>
-        <div class="button-minus"><h2>-</h2></div>
-       </div>
-       <div class="button-conteiner"> 
-        <div class="button-point"><h1>.</h1></div>
-        <div class="button-zero"><h2>0</h2></div>
-        <div class="button-equality"><h1>=</h1></div>
-       </div>
-      
-      
-     
+    <div class="container">
+        <div class="calculator">
+            
+                <div class="display">
+                    <input id="input" type="text" name="" id="">
+                </div>
+                <div>
+                    <button class="AC" id="AC" value="AC"> AC</button>
+                    <button class="elem"  value="DE">DE</button>
+                    <button class="elem"  value="%">%</button>
+                    <button class="elem"  value="/">/</button>
+                </div>
+                <div>
+                    <button class="elem"  value="1">1</button>
+                    <button class="elem"  value="2">2</button>
+                    <button class="elem"  value="3">3</button>
+                    <button class="elem"  value="x">x</button>
+                </div>
+                <div>
+                    <button class="elem" value="4">4</button>
+                    <button class="elem"  value="5">5</button>
+                    <button class="elem"  value="6">6</button>
+                    <button class="elem"  value="-">-</button>
+                </div>
+                <div>
+                    <button class="elem"  value="7">7</button>
+                    <button class="elem"  value="8">8</button>
+                    <button class="elem"  value="9">9</button>
+                    <button class="elem"  value="+">+</button>
+                </div>
+                <div class="null">
+                    <button class="elem" id="btnNull"  value="0">0</button>
+                    <button class="elem"  value=".">.</button>
+                    <button id="result" class="elem"  value="=">=</button>
+                </div>
+            
+        </div>
     </div>
+   <script src="main.js"></script>
 </body>
 </html>  
